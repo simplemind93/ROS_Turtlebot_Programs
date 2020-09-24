@@ -1,0 +1,6 @@
+<launch>
+    <node pkg = "my_turtlebot_topics"
+          type = "velpublisher.py"
+          name = "publish_vel_cmd"
+          output = "screen" />
+</launch>
